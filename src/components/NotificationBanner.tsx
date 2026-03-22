@@ -26,7 +26,7 @@ const NotificationBanner: React.FC = () => {
   return (
     !isScrolled && (
       <div className={styles.banner}>
-        <p>This is not the official documentation of Superset. Created for <a style={{color: 'blue'}} href='https://www.youtube.com/@shantanukhond'>youtube.com/@shantanukhond</a> </p>
+        <p>This is not the official MCP documentation. Created for <a style={{color: 'blue'}} href='https://www.youtube.com/@shantanukhond'>youtube.com/@shantanukhond</a></p>
       </div>
     )
   );

@@ -1,6 +1,6 @@
-# Website
+# MCP Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This site hosts the MCP (Model Context Protocol) documentation. It is built with [Docusaurus](https://docusaurus.io/).
 
 ### Installation
 

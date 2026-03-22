@@ -20,8 +20,25 @@ const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     {
       type: 'doc',
-      label: "Introduction",
-      id: 'intro'
+      label: 'Introduction',
+      id: 'intro',
+    },
+    {
+      type: 'category',
+      label: 'Understand MCP with Primer Prompt',
+      link: { type: 'doc', id: 'understanding-primer/what-is-primer' },
+      items: [
+        'understanding-primer/what-is-primer',
+        'understanding-primer/how-mcp-is-primer',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'MCP Core Concept',
+      items: [
+        'mcp-core/overview',
+        'sample-code',
+      ],
     },
   //   {
   //     type: 'doc',
