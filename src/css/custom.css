@@ -28,3 +28,11 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Mermaid: avoid light-on-light labels when nodes use custom pastel fills */
+[data-theme='dark'] .docusaurus-mermaid-container svg .nodeLabel,
+[data-theme='dark'] .docusaurus-mermaid-container svg .edgeLabel,
+[data-theme='dark'] .docusaurus-mermaid-container svg .cluster text {
+  fill: #f8fafc !important;
+}
+

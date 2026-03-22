@@ -53,11 +53,11 @@ flowchart LR
   Server --> Result
   Result --> Client
 
-  style PRIMER fill:#ede9fe,stroke:#5b21b6,stroke-width:2px
-  style MCP fill:#ecfdf5,stroke:#0f766e,stroke-width:2px
-  classDef primerNode fill:#ddd6fe,stroke:#5b21b6,stroke-width:2px
-  classDef mcpNode fill:#a7f3d0,stroke:#0f766e,stroke-width:2px
-  classDef clientNode fill:#5eead4,stroke:#0d9488,stroke-width:2px
+  style PRIMER fill:#312e81,stroke:#a5b4fc,stroke-width:2px,color:#f8fafc
+  style MCP fill:#134e4a,stroke:#5eead4,stroke-width:2px,color:#f8fafc
+  classDef primerNode fill:#4c1d95,stroke:#c4b5fd,stroke-width:2px,color:#f8fafc
+  classDef mcpNode fill:#115e59,stroke:#5eead4,stroke-width:2px,color:#f8fafc
+  classDef clientNode fill:#0f766e,stroke:#99f6e4,stroke-width:2px,color:#ecfdf5
   class P,R1,I,M,E,R2 primerNode
   class U,Tool,Result,Server mcpNode
   class Client clientNode
