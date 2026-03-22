@@ -15,3 +15,7 @@ Example (run everything):
 ```
 
 Ensure `OPENAI_API_KEY` is set if you want the PRIMER model to respond.
+
+## Node.js version
+
+**Node.js 20+** is required for MCP Inspector (`npx @modelcontextprotocol/inspector`). If you see “Minimum Node.js version not met”, upgrade Node (e.g. `nvm install 20 && nvm use 20`, or install from [nodejs.org](https://nodejs.org/)). The repo includes a `.nvmrc` with `20`.

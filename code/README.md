@@ -28,7 +28,7 @@ From the **repo root**:
 ./scripts/start-all.sh
 ```
 
-This starts the **IRCTC API** (background), **MCP Inspector** (background; open http://localhost:6274 to test the MCP server), and the **PRIMER** app (foreground). When you quit PRIMER (Ctrl+C or type `quit`), the API and Inspector are stopped. Requires Node.js (for the Inspector).
+This starts the **IRCTC API** (background), **MCP Inspector** (background; open http://localhost:6274 to test the MCP server), and the **PRIMER** app (foreground). When you quit PRIMER (Ctrl+C or type `quit`), the API and Inspector are stopped. **Requires Node.js 20+** (MCP Inspector; use `nvm use` with `.nvmrc` if you use nvm).
 
 **API only** (e.g. for MCP in Cursor):
 
@@ -42,7 +42,7 @@ This starts the **IRCTC API** (background), **MCP Inspector** (background; open 
 ./scripts/start-mcp-inspector.sh
 ```
 
-Opens the Inspector at http://localhost:6274 and starts the IRCTC API if needed. Requires Node.js.
+Opens the Inspector at http://localhost:6274 and starts the IRCTC API if needed. Requires **Node.js 20+**.
 
 ## Run order (manual)
 

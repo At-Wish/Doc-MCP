@@ -38,7 +38,7 @@ To test the MCP server (tools and resources) in the browser, run from the repo r
 ./scripts/start-mcp-inspector.sh
 ```
 
-This starts the [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) with our IRCTC MCP server and opens the UI (usually http://localhost:6274). The script starts the dummy IRCTC API in the background if needed. Requires Node.js (for `npx`).
+This starts the [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) with our IRCTC MCP server and opens the UI (usually http://localhost:6274). The script starts the dummy IRCTC API in the background if needed. Requires **Node.js 20+** (MCP Inspector; see repo `.nvmrc`).
 
 ## Links
 

@@ -32,7 +32,7 @@ From the **repo root**, run:
 ./scripts/start-mcp-inspector.sh
 ```
 
-This starts the [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) with this server and opens the UI (usually http://localhost:6274). You can try tools (`get_train_status_tool`, `get_pnr_status_tool`) and the resource (`irctc://train-mapping`) in the browser. The script starts the IRCTC API in the background if it isn’t already running. Requires Node.js (for `npx`).
+This starts the [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) with this server and opens the UI (usually http://localhost:6274). You can try tools (`get_train_status_tool`, `get_pnr_status_tool`) and the resource (`irctc://train-mapping`) in the browser. The script starts the IRCTC API in the background if it isn’t already running. Requires **Node.js 20+** (MCP Inspector; see repo `.nvmrc`).
 
 Optional env:
 
